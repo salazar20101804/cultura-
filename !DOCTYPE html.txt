@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PROYECTO DE CULTURA DIGITAL 2</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+padding:40px;
+}
+
+h1{
+text-align:center;
+border:2px solid #fff;
+padding:20px;
+border-radius:20px;
+margin-bottom:40px;
+font-size:3rem;
+animation:fadeDown 1s ease;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:25px;
+}
+
+.card{
+border:2px solid white;
+border-radius:20px;
+padding:25px;
+background:rgba(255,255,255,.03);
+transition:.4s;
+animation:fadeUp .8s ease;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px rgba(255,255,255,.25);
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.7;
+text-align:justify;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 18px;
+border:2px solid white;
+border-radius:10px;
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+.btn:hover{
+background:white;
+color:black;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes fadeDown{
+from{
+opacity:0;
+transform:translateY(-30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>PROYECTO DE CULTURA DIGITAL 2</h1>
+
+<div class="grid"><div class="card">
+<h2>👥 Nombres de los Integrantes</h2>
+
+<p>
+<strong>Líder:</strong> Cruz Vázquez Anastacio
+</p>
+
+<ul>
+<li>Hernández García Jaziel</li>
+<li>García Castillo Juan Ángel</li>
+<li>Herver Castillo Kevin Yafet</li>
+<li>Ochoa Simbrón Oscar Manuel</li>
+<li>Salazar Simbrón Cristian Manuel</li>
+<li>Tapia Cabrera Brayan Alexis</li>
+<li>Hernández Martínez Alex Calen<li>
+</ul>
+
+</div><div class="card">
+<h2>🔗 Proyecto Referencial en Figma</h2>
+
+<p>
+Diseño base utilizado como referencia para el desarrollo del proyecto web sobre Cambio Climático.
+</p>
+
+<a class="btn"
+href="https://www.figma.com/make/HboA3IqzhzykTJkrE5Jeo6/Climate-Change-Data-Analysis?p=f&t=B947f9Sn5AqknTR4-0"
+target="_blank">
+Abrir Figma
+</a>
+
+</div><div class="card">
+
+<h2>📈 Estadística con Excel</h2>
+
+<p>
+Durante este proyecto aprendí la importancia de la estadística para analizar datos de manera organizada. Utilicé Excel para trabajar con promedio, mediana, moda, rango, varianza y desviación estándar, además de analizar información sobre marcas de automóviles y presentar resultados de forma profesional.
+</p>
+
+</div><div class="card">
+
+<h2>📊 Hoja de Cálculo sobre el Cambio Climático</h2>
+
+<p>
+Actividad realizada en Google Sheets para analizar temperatura global, CO₂ y nivel del mar. Permitió comprender la relación entre contaminación y calentamiento global.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/spreadsheets/d/1i_WAK523lht1olKVFJtyR0EkZhSQjfoYWJr01fTSqbQ/edit?gid=0#gid=0"
+target="_blank">
+Abrir Hoja
+</a>
+
+<a class="btn"
+href="https://youtu.be/xApZhkNcJyY?si=nFxf9XLPy7AhTJuG"
+target="_blank">
+Ver Video
+</a>
+
+</div><div class="card">
+
+<h2>📄 Google Docs sobre el Cambio Climático</h2>
+
+<p>
+Aprendí a crear documentos colaborativos en la nube, utilizar herramientas de formato, compartir archivos y trabajar en equipo utilizando Google Workspace.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/document/d/1nNEwwgztAv_hBQ1vKQHtmepzXQN3tDjOHK2xbhpq-b0/edit"
+target="_blank">
+Abrir Documento
+</a>
+
+<a class="btn"
+href="https://youtu.be/YYSDKfGEx1g?si=G5F4_LQ5HgWMLhcT"
+target="_blank">
+Ver Video
+</a>
+
+</div><div class="card">
+
+<h2>🖥️ Seguridad en Internet</h2>
+
+<p>
+Presentación desarrollada en Google Slides sobre protección de datos, riesgos digitales y contraseñas seguras.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/presentation/d/1Kj9JHQx1avQlIiF5zdfpd_oc6ckE1lTF9ZB9CtZ8kZ8/edit"
+target="_blank">
+Abrir Presentación
+</a>
+
+<a class="btn"
+href="https://youtu.be/F22DvfhKn2g?si=kdChWlp5_poIIMIh"
+target="_blank">
+Ver Video
+</a>
+
+</div><div class="card">
+
+<h2>📐 Medidas Estadísticas</h2>
+
+<p>
+Trabajo enfocado en mediana, rango, varianza y desviación estándar. Se investigó su significado, procedimiento y aplicación para interpretar datos correctamente.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/document/d/1WJPBl7Hu1XzZqPQ0XqGMPl0Mm_3NCRvbB2Jr5y-5zhI/edit"
+target="_blank">
+Abrir Documento
+</a>
+
+</div><div class="card">
+
+<h2>🚗 Marcas de Automóviles</h2>
+
+<p>
+Comparación de ventas, velocidad máxima y consumo de combustible entre distintas marcas de automóviles para analizar tendencias y diferencias.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/spreadsheets/d/1IjU97hoA67qtle4-dP_ym_DfgXuWxWmuKV2nH214llU/edit?gid=0#gid=0"
+target="_blank">
+Abrir Tabla
+</a>
+
+</div><div class="card">
+
+<h2>📚 Todos los Trabajos</h2>
+
+<ul>
+
+<li><a href="https://docs.google.com/presentation/d/1Kj9JHQx1avQlIiF5zdfpd_oc6ckE1lTF9ZB9CtZ8kZ8/edit" target="_blank">Google Slides</a></li>
+
+<li><a href="https://docs.google.com/spreadsheets/d/1i_WAK523lht1olKVFJtyR0EkZhSQjfoYWJr01fTSqbQ/edit" target="_blank">Google Sheets</a></li>
+
+<li><a href="https://docs.google.com/document/d/1nNEwwgztAv_hBQ1vKQHtmepzXQN3tDjOHK2xbhpq-b0/edit" target="_blank">Google Docs</a></li>
+
+<li><a href="https://docs.google.com/document/d/1WJPBl7Hu1XzZqPQ0XqGMPl0Mm_3NCRvbB2Jr5y-5zhI/edit" target="_blank">Medidas Estadísticas</a></li>
+
+<li><a href="https://docs.google.com/spreadsheets/d/1IjU97hoA67qtle4-dP_ym_DfgXuWxWmuKV2nH214llU/edit" target="_blank">Marcas de Automóviles</a></li>
+
+<li><a href="https://www.figma.com/make/HboA3IqzhzykTJkrE5Jeo6/Climate-Change-Data-Analysis" target="_blank">Proyecto Figma</a></li>
+
+</ul>
+
+</div></div>
+
+</body>
+</html>
